@@ -4,16 +4,18 @@
       "type": "slide-01_build-smarter-systems-with-ai-agents",
       "backgroundImage": "",
       "brand": {
-        "name": "SYSTEM.AI",
-        "version": "v2.0"
+        "name": "GTM.TECH",
+        "version": "Decisiones"
       },
       "headline": [
-        "BUILD",
-        "SMARTER",
-        "SYSTEMS",
-        "WITH"
+        "¿Next.js",
+        "o WordPress?",
+        "La respuesta correcta."
       ],
-      "highlight": "AI AGENTS"
+      "headlineSize": 140,
+      "lineHeight": 0.95,
+      "highlight": "Depende del cliente, no de la moda",
+      "highlightSize": 100
     },
     {
       "type": "slide-02_understand-practice-apply-and-build",
@@ -21,62 +23,52 @@
       "sections": [
         {
           "accentColor": "#e84c0e",
-          "title": "UNDERSTAND\nTHE BASICS",
-          "body": "Start with the fundamentals. Build a strong foundation by learning the core concepts that everything else is built on."
+          "title": "Elige WordPress\nsi el cliente necesita autonomía",
+          "body": "Si el equipo va a editar contenido solo, sin depender de un dev, WordPress con Elementor o Gutenberg es la opción. Bajo costo operativo, ecosistema masivo, y cualquier freelance puede mantenerlo."
         },
         {
-          "accentColor": "#e84c0e",
-          "title": "PRACTICE\nCONSISTENTLY",
-          "body": "Consistency turns knowledge into skill. Practice regularly, solve real problems, and learn from your mistakes."
+          "accentColor": "#0ea5e9",
+          "title": "Elige Next.js\nsi el producto escala o tiene lógica",
+          "body": "Si hay autenticación, dashboards, integraciones API, o el sitio es parte de un producto digital, Next.js da control total. Mejor rendimiento, SEO técnico avanzado, y arquitectura que no te limita en 12 meses."
         },
         {
-          "accentColor": "#e84c0e",
-          "title": "APPLY &\nBUILD",
-          "body": "Apply what you've learned to real-world projects. Build, iterate, and keep improving as you grow."
+          "accentColor": "#6366f1",
+          "title": "El error más común",
+          "body": "Usar Next.js para un sitio de 5 páginas que nadie va a programar. O usar WordPress para un SaaS con lógica compleja. La tecnología debe seguir al caso de uso, no al CV del dev."
         }
       ]
     },
     {
       "type": "slide-03_80-percent-of-success-is-showing-up-consistently",
       "backgroundImage": "",
-      "bigNumber": "80%",
-      "subtitle": "OF SUCCESS\nIS SHOWING UP\nCONSISTENTLY.",
-      "body": "Consistency builds momentum. Small, daily actions\ncompound over time and create massive results.\nKeep showing up. The outcomes will follow."
+      "bigNumber": "43%",
+      "subtitle": "de toda\nla web usa\nWordPress",
+      "body": "Y aun así, la mayoría de los proyectos fallidos en WordPress no fallaron por la tecnología. Fallaron porque nadie definió quién iba a mantener el sitio después del lanzamiento."
     },
     {
       "type": "slide-04_low-value-vs-high-value-mindset-comparison",
-      "backgroundImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1080&auto=format&fit=crop",
+      "backgroundImage": "",
       "leftColumn": {
-        "title": "LOW\nVALUE",
+        "title": "WORDPRESS\nMAL USADO",
         "items": [
-          "Short-term thinking",
-          "Low standards",
-          "Cheap solutions",
-          "Excuses",
-          "Time wasting",
-          "Comfort zone",
-          "Zero discipline",
-          "Average mindset",
-          "Minimal effort",
-          "Expect handouts"
+          "Dev construye, cliente no puede editar nada",
+          "15 plugins para funciones básicas",
+          "Velocidad mediocre sin optimización",
+          "Actualización rota cada 3 meses",
+          "WooCommerce donde no hacía falta"
         ],
-        "cta": "GETS YOU STUCK"
+        "cta": "Deuda técnica desde el día 1"
       },
       "rightColumn": {
-        "title": "HIGH\nVALUE",
+        "title": "NEXT.JS\nBIEN USADO",
         "items": [
-          "Long-term thinking",
-          "High standards",
-          "Premium solutions",
-          "Accountability",
-          "Time investing",
-          "Growth mindset",
-          "Daily discipline",
-          "Relentless focus",
-          "Maximum effort",
-          "Earn what you get"
+          "CMS headless para que el cliente edite solo",
+          "API routes propias, sin plugins de terceros",
+          "Core Web Vitals en verde desde el deploy",
+          "Deploy automático con GitHub + Vercel",
+          "Arquitectura que soporta el siguiente nivel"
         ],
-        "cta": "BUILDS YOUR FUTURE"
+        "cta": "Producto que crece con el negocio"
       }
     },
     {
@@ -84,30 +76,24 @@
       "backgroundImage": "",
       "headline": [
         {
-          "text": "DISCIPLINE",
+          "text": "Tecnología correcta,",
           "color": "white"
         },
         {
-          "text": "TODAY",
-          "color": "white"
-        },
-        {
-          "text": "FREEDOM",
-          "color": "white"
-        },
-        {
-          "text": "FOREVER.",
+          "text": "cliente feliz.",
           "color": "orange"
         }
       ],
+      "headlineSize": 140,
+      "lineHeight": 0.95,
       "cta": {
-        "text": "BUILD YOUR FUTURE"
+        "text": "¿Cuál necesita tu próximo proyecto?"
       },
       "tags": [
-        "FOCUS",
-        "CONSISTENCY",
-        "GROWTH",
-        "RESULTS"
+        "#NextJS",
+        "#WordPress",
+        "#DecisionesToTecnicas",
+        "#GTMEngineer"
       ]
     }
   ]
