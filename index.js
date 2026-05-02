@@ -3,12 +3,12 @@ const path = require('path');
 const nodeHtmlToImage = require('node-html-to-image');
 
 async function main() {
-  const jsonPath = path.join(__dirname, 'seccion.json');
+  const jsonPath = path.join(__dirname, 'carousel-data.json');
   const templatesDir = path.join(__dirname, 'templates', 'Classic-desing');
   const outBaseDir = path.join(__dirname, 'out');
   
   // Read JSON
-  const seccionData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+  const carouselData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
   
   // Create output directory with date and time
   const now = new Date();
@@ -41,11 +41,11 @@ async function main() {
   
   console.log(`${colors.cyan}📂 Output Directory:${colors.reset}`);
   console.log(`${colors.gray}${outDir}${colors.reset}\n`);
-  console.log(`${colors.bright}Processing ${seccionData.pages.length} slides...${colors.reset}\n`);
+  console.log(`${colors.bright}Processing ${carouselData.pages.length} slides...${colors.reset}\n`);
 
   // Process each page
-  for (let i = 0; i < seccionData.pages.length; i++) {
-    const page = seccionData.pages[i];
+  for (let i = 0; i < carouselData.pages.length; i++) {
+    const page = carouselData.pages[i];
     const templatePath = path.join(templatesDir, `${page.type}.html`);
     
     if (!fs.existsSync(templatePath)) {
@@ -71,7 +71,7 @@ async function main() {
     
     const outputPath = path.join(outDir, `page-${String(i + 1).padStart(2, '0')}.png`);
     
-    console.log(`${colors.yellow}⏳ [${i + 1}/${seccionData.pages.length}] Generating:${colors.reset} ${page.type}...`);
+    console.log(`${colors.yellow}⏳ [${i + 1}/${carouselData.pages.length}] Generating:${colors.reset} ${page.type}...`);
     
     await nodeHtmlToImage({
       output: outputPath,
@@ -90,7 +90,7 @@ async function main() {
     console.log(`${colors.green}✓ Saved:${colors.reset} page-${String(i + 1).padStart(2, '0')}.png\n`);
   }
   
-  console.log(`${colors.magenta}${colors.bright}✨ Successfully generated all ${seccionData.pages.length} slides! ✨${colors.reset}\n`);
+  console.log(`${colors.magenta}${colors.bright}✨ Successfully generated all ${carouselData.pages.length} slides! ✨${colors.reset}\n`);
 }
 
 main().catch(err => {
