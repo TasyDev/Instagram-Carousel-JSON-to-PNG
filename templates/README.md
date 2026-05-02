@@ -1,8 +1,8 @@
-# 🎨 Templates Directory (`/templates`)
+# Templates Directory (`/templates`)
 
 This folder contains the visual backbone of your Instagram carousels. It includes the structural HTML files and the global CSS rules.
 
-## 🧩 How Templates Work
+## How Templates Work
 
 The generator uses Handlebars (`{{variable}}`) to inject the dynamic content from `carousel-data.json` directly into these HTML files. 
 
@@ -16,7 +16,7 @@ These files represent specific layouts for your slides.
 * The filename (e.g., `slide-01_build-smarter-systems.html`) is **extremely important**. 
 * The `type` property in `carousel-data.json` must exactly match the filename (without the `.html` extension) for the script to know which design to apply to which data.
 
-## 🛠️ Creating a New Template Design
+## Creating a New Template Design
 
 1. Create a new `.html` file inside a design folder (e.g., `Classic-desing/slide-06_new-design.html`).
 2. Do not include `<link>` tags for CSS. Instead, put `<style>{{{css}}}</style>` inside the `<head>` of your file. This tells the generator to inject your `index.css`.
