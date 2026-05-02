@@ -1,0 +1,32 @@
+{
+  "name": "instagram-carousel-json-to-png",
+  "version": "1.0.0",
+  "description": "Convert your JSON to PNG using node-html-to-image. Personal project for free use.",
+  "keywords": [
+    "json-to-png",
+    "automation",
+    "html-to-image",
+    "node-to-image",
+    "template-rendering",
+    "dynamic-images",
+    "content-automation"
+  ],
+  "homepage": "https://github.com/TasyDev/Instagram-Carousel-JSON-to-PNG#readme",
+  "bugs": {
+    "url": "https://github.com/TasyDev/Instagram-Carousel-JSON-to-PNG/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TasyDev/Instagram-Carousel-JSON-to-PNG.git"
+  },
+  "license": "ISC",
+  "author": "@TasyDev <tamayocontat@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "dependencies": {
+    "node-html-to-image": "^5.0.0"
+  }
+}
