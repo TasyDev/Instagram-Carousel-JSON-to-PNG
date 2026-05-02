@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>Slide 1</title>
+<style>
+  {{{css}}}
+  body {
+    padding: 60px 56px;
+    {{#if backgroundImage}}
+    background-image: linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.8)), url('{{backgroundImage}}');
+    background-size: cover;
+    background-position: center;
+    {{/if}}
+  }
+  .hero-text {
+    margin-top: 60px;
+    font-size: 178px;
+    font-weight: 900;
+    color: var(--white);
+    line-height: 0.88;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+  }
+  .highlight-box {
+    display: inline-block;
+    background: var(--orange);
+    margin-top: 28px;
+    padding: 18px 24px 22px;
+  }
+  .highlight-box span {
+    font-size: 140px;
+    font-weight: 900;
+    color: var(--black);
+    line-height: 0.9;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+  }
+</style>
+</head>
+<body>
+  
+  <div class="hero-text">
+    {{#each headline}}
+      {{this}}<br>
+    {{/each}}
+  </div>
+  
+  {{#if highlight}}
+  <div class="highlight-box">
+    <span>{{highlight}}</span>
+  </div>
+  {{/if}}
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "pages": [
+    {
+      "type": "slide-01_build-smarter-systems-with-ai-agents",
+      "backgroundImage": "",
+      "brand": {
+        "name": "SYSTEM.AI",
+        "version": "v2.0"
+      },
+      "headline": [
+        "BUILD",
+        "SMARTER",
+        "SYSTEMS",
+        "WITH"
+      ],
+      "highlight": "AI AGENTS"
+    },
+    {
+      "type": "slide-02_understand-practice-apply-and-build",
+      "backgroundImage": "",
+      "sections": [
+        {
+          "accentColor": "#e84c0e",
+          "title": "UNDERSTAND\nTHE BASICS",
+          "body": "Start with the fundamentals. Build a strong foundation by learning the core concepts that everything else is built on."
+        },
+        {
+          "accentColor": "#e84c0e",
+          "title": "PRACTICE\nCONSISTENTLY",
+          "body": "Consistency turns knowledge into skill. Practice regularly, solve real problems, and learn from your mistakes."
+        },
+        {
+          "accentColor": "#e84c0e",
+          "title": "APPLY &\nBUILD",
+          "body": "Apply what you've learned to real-world projects. Build, iterate, and keep improving as you grow."
+        }
+      ]
+    },
+    {
+      "type": "slide-03_80-percent-of-success-is-showing-up-consistently",
+      "backgroundImage": "",
+      "bigNumber": "80%",
+      "subtitle": "OF SUCCESS\nIS SHOWING UP\nCONSISTENTLY.",
+      "body": "Consistency builds momentum. Small, daily actions\ncompound over time and create massive results.\nKeep showing up. The outcomes will follow."
+    },
+    {
+      "type": "slide-04_low-value-vs-high-value-mindset-comparison",
+      "backgroundImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1080&auto=format&fit=crop",
+      "leftColumn": {
+        "title": "LOW\nVALUE",
+        "items": [
+          "Short-term thinking",
+          "Low standards",
+          "Cheap solutions",
+          "Excuses",
+          "Time wasting",
+          "Comfort zone",
+          "Zero discipline",
+          "Average mindset",
+          "Minimal effort",
+          "Expect handouts"
+        ],
+        "cta": "GETS YOU STUCK"
+      },
+      "rightColumn": {
+        "title": "HIGH\nVALUE",
+        "items": [
+          "Long-term thinking",
+          "High standards",
+          "Premium solutions",
+          "Accountability",
+          "Time investing",
+          "Growth mindset",
+          "Daily discipline",
+          "Relentless focus",
+          "Maximum effort",
+          "Earn what you get"
+        ],
+        "cta": "BUILDS YOUR FUTURE"
+      }
+    },
+    {
+      "type": "slide-05_discipline-today-freedom-forever-build-your-future",
+      "backgroundImage": "",
+      "headline": [
+        {
+          "text": "DISCIPLINE",
+          "color": "white"
+        },
+        {
+          "text": "TODAY",
+          "color": "white"
+        },
+        {
+          "text": "FREEDOM",
+          "color": "white"
+        },
+        {
+          "text": "FOREVER.",
+          "color": "orange"
+        }
+      ],
+      "cta": {
+        "text": "BUILD YOUR FUTURE"
+      },
+      "tags": [
+        "FOCUS",
+        "CONSISTENCY",
+        "GROWTH",
+        "RESULTS"
+      ]
+    }
+  ]
+}

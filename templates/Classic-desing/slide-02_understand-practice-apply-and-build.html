@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>Slide 2</title>
+<style>
+  {{{css}}}
+  body {
+    padding: 80px 72px;
+    justify-content: center;
+    gap: 80px;
+    {{#if backgroundImage}}
+    background-image: linear-gradient(rgba(10, 10, 10, 0.85), rgba(10, 10, 10, 0.85)), url('{{backgroundImage}}');
+    background-size: cover;
+    background-position: center;
+    {{/if}}
+  }
+  .item {
+    display: flex;
+    gap: 36px;
+    align-items: flex-start;
+  }
+  .bar {
+    width: 6px;
+    min-height: 160px;
+    background: var(--orange);
+    flex-shrink: 0;
+    margin-top: 6px;
+  }
+  .content h2 {
+    font-size: 92px;
+    font-weight: 900;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 0.9;
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+    white-space: pre-wrap;
+  }
+  .content p {
+    font-family: var(--font-body);
+    font-size: 28px;
+    font-weight: 400;
+    color: #cccccc;
+    line-height: 1.5;
+    max-width: 820px;
+  }
+</style>
+</head>
+<body>
+  {{#each sections}}
+  <div class="item">
+    <div class="bar" {{#if accentColor}}style="background: {{accentColor}};"{{/if}}></div>
+    <div class="content">
+      <h2 {{#if titleColor}}style="color: {{titleColor}};"{{/if}}>{{title}}</h2>
+      <p {{#if bodyColor}}style="color: {{bodyColor}};"{{/if}}>{{body}}</p>
+    </div>
+  </div>
+  {{/each}}
+</body>
+</html>

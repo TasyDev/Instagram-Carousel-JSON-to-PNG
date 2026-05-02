@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>Slide 5</title>
+<style>
+  {{{css}}}
+  body {
+    padding: 100px 72px 80px;
+    justify-content: center;
+    {{#if backgroundImage}}
+    background-image: linear-gradient(rgba(10, 10, 10, 0.85), rgba(10, 10, 10, 0.85)), url('{{backgroundImage}}');
+    background-size: cover;
+    background-position: center;
+    {{/if}}
+  }
+  .main-text {
+    font-size: 175px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.87;
+    letter-spacing: -0.02em;
+  }
+  .main-text .white { color: var(--white); }
+  .main-text .orange { color: var(--orange); }
+  .cta-bar {
+    background: var(--orange);
+    margin-top: 44px;
+    padding: 30px 48px;
+    width: 100%;
+    text-align: center;
+  }
+  .cta-bar span {
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--black);
+    letter-spacing: 0.04em;
+  }
+  .tagline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 10px;
+  }
+  .tagline span {
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: 500;
+    color: #555;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+  <div class="main-text">
+    {{#each headline}}
+      {{#if isOrange}}
+        <span class="orange">{{text}}</span>
+      {{else}}
+        <span class="white">{{text}}</span>
+      {{/if}}
+      {{#unless @last}}<br>{{/unless}}
+    {{/each}}
+  </div>
+  {{#if cta}}
+  <div class="cta-bar"><span>{{cta.text}}</span></div>
+  {{/if}}
+  {{#if tags}}
+  <div class="tagline">
+    {{#each tags}}
+      <span>{{this}}</span>
+      {{#unless @last}}<span>•</span>{{/unless}}
+    {{/each}}
+  </div>
+  {{/if}}
+</body>
+</html>
