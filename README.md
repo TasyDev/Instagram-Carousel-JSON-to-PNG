@@ -1,5 +1,10 @@
 # 📸 Instagram Carousel JSON to PNG Generator
 
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)
+[![GitHub stars](https://img.shields.io/github/stars/TasyDev/Instagram-Carousel-JSON-to-PNG.svg?style=social&label=Star)](https://github.com/TasyDev/Instagram-Carousel-JSON-to-PNG/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/TasyDev/Instagram-Carousel-JSON-to-PNG.svg?style=social&label=Fork)](https://github.com/TasyDev/Instagram-Carousel-JSON-to-PNG/network/members)
+
 Automate the creation of stunning Instagram carousel posts using dynamic JSON data and HTML templates. This tool takes a JSON file containing the content and styling for your carousel and generates high-quality, pixel-perfect PNG images ready for Instagram (1080 × 1350 px).
 
 ## 🚀 How It Works
