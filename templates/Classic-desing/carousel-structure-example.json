@@ -1,0 +1,83 @@
+{
+  "pages": [
+    {
+      "type": "slide-01_build-smarter-systems-with-ai-agents",
+      "backgroundImage": "URL of the background image (leave empty string \"\" for no image)",
+      "brand": {
+        "name": "The name of your brand (e.g., 'SYSTEM.AI')",
+        "version": "Version or subtitle text (e.g., 'v2.0')"
+      },
+      "headline": [
+        "First line of the big headline",
+        "Second line of the big headline",
+        "Third line..."
+      ],
+      "highlight": "The text inside the bright orange box"
+    },
+    {
+      "type": "slide-02_understand-practice-apply-and-build",
+      "backgroundImage": "Optional URL for background",
+      "sections": [
+        {
+          "accentColor": "Hex color for the vertical bar (e.g., '#e84c0e')",
+          "title": "Title of the point (use \\n for a line break)",
+          "body": "The descriptive paragraph for this point"
+        },
+        {
+          "accentColor": "You can add multiple points by copying this block",
+          "title": "Another title",
+          "body": "Another description"
+        }
+      ]
+    },
+    {
+      "type": "slide-03_80-percent-of-success-is-showing-up-consistently",
+      "backgroundImage": "Optional URL for background",
+      "bigNumber": "The massive text (e.g., '80%')",
+      "subtitle": "The text next to the big number (use \\n for line breaks)",
+      "body": "The smaller body text below the orange divider line"
+    },
+    {
+      "type": "slide-04_low-value-vs-high-value-mindset-comparison",
+      "backgroundImage": "Optional URL for background",
+      "leftColumn": {
+        "title": "Title for the left column (e.g., 'LOW\\nVALUE')",
+        "items": [
+          "First item in the negative list",
+          "Second item in the negative list"
+        ],
+        "cta": "Text for the bottom left button"
+      },
+      "rightColumn": {
+        "title": "Title for the right column (e.g., 'HIGH\\nVALUE')",
+        "items": [
+          "First item in the positive list",
+          "Second item in the positive list"
+        ],
+        "cta": "Text for the bottom right button"
+      }
+    },
+    {
+      "type": "slide-05_discipline-today-freedom-forever-build-your-future",
+      "backgroundImage": "Optional URL for background",
+      "headline": [
+        {
+          "text": "First word of the final phrase",
+          "color": "Color of the text ('white' or 'orange')"
+        },
+        {
+          "text": "Last word of the final phrase",
+          "color": "Color of the text ('white' or 'orange')"
+        }
+      ],
+      "cta": {
+        "text": "Text inside the big call-to-action bar"
+      },
+      "tags": [
+        "First tag at the bottom",
+        "Second tag at the bottom",
+        "Third tag at the bottom"
+      ]
+    }
+  ]
+}
